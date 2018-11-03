@@ -17,8 +17,12 @@
     <style type="text/css">
         body {
             background: #777777;
-            background-image: url(../images/gravel.png);
             font-family: Arial, Helvetica, sans-serif;
+            color: #777777;
+        }
+
+        .card-text a {
+            text-decoration: none;
             color: #777777;
         }
     </style>
@@ -35,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Portfolio</a>
@@ -46,44 +50,40 @@
             </ul>
         </div>
     </nav>
-    </div>
+
     </nav>
-    <div class="container mt-4" style="background: #ffff; border: solid 1px #dddddd">
+    </div>
+    <div class="container mt-4 mb-4" style="background: #ffff; border: solid 1px #dddddd">
+        <div class="header_container" style="border-bottom: 1px solid #dddddd;">
+            <h2>Portfolio</h2>
+        </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="card mt-4" style="width: 275px; height: 260px;">
-                    <img class="card-img-top" src="images/guitar.jpg" style="height: 200px; width: 273px;" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text" style="text-align: center;">Trivia</p>
-                    </div>
+                <div class="card bg-dark text-white mt-4">
+                    <img class="card-img" src="images/guitar.jpg" alt="Card image">
                 </div>
+                <button type="button" class="btn btn-info" style="width: 100%;">Trivia</button>
             </div>
             <div class="col-md-8">
-                <div class="card mt-4" style="width: 275px; height: 260px;">
-                    <img class="card-img-top" src="images/PC_game.png" style="height: 200px; width: 273px;" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text" style="text-align: center;">Games</p>
-                    </div>
+                <div class="card bg-dark text-white mt-4" style="width:350px; height: 232px;">
+                    <img class="card-img" src="images/PC_game.png" style="width:350px; height: 232px;" alt="Card image">
                 </div>
+                <button type="button" class="btn btn-info" style="width: 350px;">Games</button>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div class="card mt-4" style="width: 275px; height: 260px;">
-                    <img class="card-img-top" src="images/jazz_logo.png" style="height: 200px; width: 273px;" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text" style="text-align: center;">Widget</p>
-                    </div>
+                <div class="card bg-dark text-white mt-4" style="width:350px; height: 232px;">
+                    <img class="card-img" src="images/jazz_logo.png" style="width:350px; height: 232px;" alt="Card image">
                 </div>
+                <button type="button" class="btn btn-info" style="width: 350px;">Widget</button>
             </div>
             <div class="col-md-8">
-                <div class="card mt-4" style="width: 275px; height: 260px;">
-                    <img class="card-img-top" src="images/website_image.jpg" style="height: 200px; width: 273px;" alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text mr-4" style="text-align: center;">Websites</p>
+                    <div class="card bg-dark text-white mt-4" style="width:345px; height: 230px;">
+                        <img class="card-img" src="images/website_image.jpg" style="width:349px; height: 232px;" alt="Card image">
                     </div>
+                    <button type="button" class="btn btn-info" style="width: 350px;">Websites</button>
                 </div>
-            </div>
         </div>
     </div>
     <div class="copyright py-4 text-center text-white" style="background: rgb(27, 26, 26);">
